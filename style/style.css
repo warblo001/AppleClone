@@ -6,8 +6,65 @@
 }
 
 .hero-banner {
-  width: 1024px;
+  width: 100%;
+  max-width: 1300px;
   height: 70vh;
+  max-height: 825px;
   background: url("../img/your_verse_hero.jpg") no-repeat bottom;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 70%;
+  margin: 0 auto;
+  border: orangered 1px solid;
+  position: relative;
+  top: 18px;
+}
+
+.navbar ul {
+  border: seagreen 1px solid;
+  width: 100%;
+  list-style: none;
+}
+
+.navbar ul li {
+  text-align: center;
+  display: inline-block;
+  border: yellow 2px solid;
+  width: 10%;
+  background: white;
+}
+
+.navbar input {
+  border: slateblue 1px solid;
+  position: absolute;
+  right: 0;
+  width: 13%;
+}
+
+.clearfix:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1300px;
+  height: 20vh;
+  max-height: 825px;
+}
+
+figure {
+  width: 25%;
+}
+
+figure img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
