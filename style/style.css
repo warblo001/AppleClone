@@ -26,7 +26,7 @@
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
 .navbar ul {
@@ -50,7 +50,6 @@
 .navbar ul li {
   text-align: center;
   width: 10.9%;
-  background: transparent;
   color: white;
   border: #616161 1px solid;
   display: -webkit-box;
@@ -87,15 +86,22 @@
   background: -webkit-gradient(linear, left top, left bottom, from(#717471), color-stop(48%, #767a76), color-stop(52%, #626060), to(#505152));
   background: linear-gradient(180deg, #717471 0%, #767a76 48%, #626060 52%, #505152 100%);
   outline: none;
+  border: 1px solid gray;
   padding-left: 30px;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
+  -webkit-transition: ease-in-out, width .35s ease-in-out;
+  transition: ease-in-out, width .35s ease-in-out;
 }
 
 .navbar input:focus {
-  -webkit-transform: scaleX(10px);
-          transform: scaleX(10px);
-  background-color: white;
+  width: 90%;
+  background: white;
+  color: black;
+}
+
+.navbar .input:focus + .nav-search {
+  color: black;
 }
 
 .navbar .nav-search {
@@ -188,7 +194,7 @@
 }
 
 .footer {
-  width: 70%;
+  width: 78%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,17 +207,28 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: olivedrab 1px solid;
 }
 
 .footer ul {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.footer li {
+.footer li:not(:last-child) {
   border-right: #ccc 1px solid;
-  display: inline-block;
   padding-right: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer li:not(:first-child) {
+  margin-left: 5px;
 }
 
 .footer a {
@@ -232,12 +249,6 @@
 }
 
 .site-map {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   border: orchid 1px solid;
   width: 50%;
 }
@@ -246,11 +257,6 @@
   -ms-grid-column-align: end;
       justify-self: end;
   width: 40%;
-  margin-top: 20px;
-}
-
-.flag {
-  padding-top: 5px;
-  border: peru 1px solid;
+  margin-top: 14px;
 }
 /*# sourceMappingURL=style.css.map */
