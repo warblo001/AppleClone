@@ -29,50 +29,54 @@
     width: 100%;
     list-style: none;
     border-radius: 6px;
-    height: 52px;
+    height: 36px;
     background: rgb(113,116,113);
     background: linear-gradient(180deg, rgba(113,116,113,1) 0%, rgba(118,122,118,1) 48%, rgba(98,96,96,1) 52%, rgba(80,81,82,1) 100%);
     
-    :not(:first-child) {
-      padding-top: 12px;
-    }
     
     li {
       text-align: center;
       width: 10.9%;
       background:transparent;
       color: white;
-      height: 100%;
       border-right: 1px black solid;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .apple-icon {
-      font-size: 30px;
+      font-size: 25px;
       padding-bottom: 10px;
     }
 
     .special-one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 15%;
-    padding-top: 2px;
     position: relative;
     border-right: none;
     }
     
   }
   input{
-    border: slateblue 1px solid;
+    
     width: 80%;
     border-radius: 20px;
-    
-  }
+    background: linear-gradient(180deg, rgba(113,116,113,1) 0%, rgba(118,122,118,1) 48%, rgba(98,96,96,1) 52%, rgba(80,81,82,1) 100%);
+    outline: none; 
+    padding-left: 30px;
+    transition: .2s all;
+    }
+
+    input:focus {
+      transform: scaleX(10px);
+      background-color: white;
+    }
 
   .nav-search {
     position: absolute;
-    top: 17px;
+    top: 10px;
     left: 30px;
+    font-size: 14px;
   }
 }
 

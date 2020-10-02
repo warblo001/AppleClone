@@ -36,14 +36,10 @@
   width: 100%;
   list-style: none;
   border-radius: 6px;
-  height: 52px;
+  height: 36px;
   background: #717471;
   background: -webkit-gradient(linear, left top, left bottom, from(#717471), color-stop(48%, #767a76), color-stop(52%, #626060), to(#505152));
   background: linear-gradient(180deg, #717471 0%, #767a76 48%, #626060 52%, #505152 100%);
-}
-
-.navbar ul :not(:first-child) {
-  padding-top: 12px;
 }
 
 .navbar ul li {
@@ -51,16 +47,7 @@
   width: 10.9%;
   background: transparent;
   color: white;
-  height: 100%;
   border-right: 1px black solid;
-}
-
-.navbar ul .apple-icon {
-  font-size: 30px;
-  padding-bottom: 10px;
-}
-
-.navbar ul .special-one {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,22 +57,41 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navbar ul .apple-icon {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+.navbar ul .special-one {
   width: 15%;
-  padding-top: 2px;
   position: relative;
   border-right: none;
 }
 
 .navbar input {
-  border: slateblue 1px solid;
   width: 80%;
   border-radius: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#717471), color-stop(48%, #767a76), color-stop(52%, #626060), to(#505152));
+  background: linear-gradient(180deg, #717471 0%, #767a76 48%, #626060 52%, #505152 100%);
+  outline: none;
+  padding-left: 30px;
+  -webkit-transition: .2s all;
+  transition: .2s all;
+}
+
+.navbar input:focus {
+  -webkit-transform: scaleX(10px);
+          transform: scaleX(10px);
+  background-color: white;
 }
 
 .navbar .nav-search {
   position: absolute;
-  top: 17px;
+  top: 10px;
   left: 30px;
+  font-size: 14px;
 }
 
 .clearfix:after {
