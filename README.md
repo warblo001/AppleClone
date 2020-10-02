@@ -22,7 +22,7 @@ Old Apple Website Clone project for Microverse program for practicing background
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/helciodev/nytClone/84fe9f627e1b27f2194dba0d9429c7637fb54564/index.html)
+[Live Demo Link](https://rawcdn.githack.com/warblo001/AppleClone/f7c7e942b13f4fd250f7b0c9fbaaea293f83a5ff/index.html)
 
 **See the page via the link above**
 
