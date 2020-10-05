@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .hero-banner {
@@ -25,17 +25,22 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   cursor: pointer;
 }
 
 .navbar ul li .element {
   color: white;
   text-decoration: none;
+}
+
+.hero-text span {
+  font-size: 24px;
+  font-weight: 100;
 }
 
 .footer {
@@ -46,8 +51,8 @@
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   font-size: 10px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .footer ul {
@@ -64,8 +69,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .footer li:not(:first-child) {
@@ -93,8 +98,8 @@
   margin: 0 auto;
   padding-top: 77px;
   -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
 }
 
@@ -103,8 +108,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin: 0 auto;
   border: #7c7b7b 1px solid;
   width: 80%;
@@ -118,8 +123,8 @@
 
 .navbar ul li:not(:last-child):hover {
   background: #383838;
-  background: -webkit-gradient(linear, left top, left bottom, from(#333333), color-stop(48%, #383838), color-stop(52%, #3b3b3b), to(#3f3f3f));
-  background: linear-gradient(180deg, #333333 0%, #383838 48%, #3b3b3b 52%, #3f3f3f 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#333), color-stop(48%, #383838), color-stop(52%, #3b3b3b), to(#3f3f3f));
+  background: linear-gradient(180deg, #333 0%, #383838 48%, #3b3b3b 52%, #3f3f3f 100%);
 }
 
 .navbar ul .apple-icon {
@@ -140,10 +145,18 @@
   outline: none;
   border: 1px solid gray;
   padding-left: 30px;
-  -webkit-transition: 0.2s all;
-  transition: 0.2s all;
   -webkit-transition: ease-in-out, width 0.35s ease-in-out;
   transition: ease-in-out, width 0.35s ease-in-out;
+}
+
+.navbar .nav-search {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  font-size: 14px;
+  cursor: text;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 
 .navbar input:focus {
@@ -155,22 +168,12 @@
 .navbar input:focus + .nav-search {
   color: black;
   -webkit-transform: translateX(-18px);
-          transform: translateX(-18px);
-}
-
-.navbar .nav-search {
-  position: absolute;
-  top: 10px;
-  left: 20px;
-  font-size: 14px;
-  cursor: text;
-  -webkit-transition: all .2s;
-  transition: all .2s;
+  transform: translateX(-18px);
 }
 
 .hero-text {
   text-align: center;
-  font-family: "Open Sans" sans-serif;
+  font-family: "Open Sans", 'Lucida Sans', sans-serif;
   color: white;
   padding-top: 25px;
   cursor: pointer;
@@ -187,11 +190,6 @@
   margin: 0 auto;
   width: 60%;
   margin-bottom: 25px;
-}
-
-.hero-text span {
-  font-size: 24px;
-  font-weight: 100;
 }
 
 .hero-text a:hover {
@@ -255,8 +253,7 @@
 
 .copyright {
   -ms-grid-column-align: end;
-      justify-self: end;
+  justify-self: end;
   width: 40%;
   margin-top: 14px;
 }
-/*# sourceMappingURL=style.css.map */
