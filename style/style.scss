@@ -27,9 +27,8 @@
 
   .element {
     color: white;
-    text-decoration: none;;
+    text-decoration: none;
   }
-
 }
 
 .footer {
@@ -69,7 +68,6 @@
   p {
     color: #6e6e6e;
   }
-
 }
 
 .navbar {
@@ -123,8 +121,9 @@
     width: 90%;
     background: white;
     padding: 3px 3px 3px 28px;
+
     + .nav-search {
-    color: black;
+    color: black; 
     transform: translateX(-18px);
     }
   }
@@ -137,12 +136,11 @@
     cursor: text;
     transition: all .2s;
   }
-
 }
 
 .hero-text {
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans" sans-serif;
   color: white;
   padding-top: 25px;
   cursor: pointer;
