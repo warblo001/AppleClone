@@ -144,7 +144,7 @@
   background: linear-gradient(180deg, #717471 0%, #767a76 48%, #626060 52%, #505152 100%);
   outline: none;
   border: 1px solid gray;
-  padding-left: 30px;
+  padding-left: 30px; 
   -webkit-transition: ease-in-out, width 0.35s ease-in-out;
   transition: ease-in-out, width 0.35s ease-in-out;
 }

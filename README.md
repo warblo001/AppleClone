@@ -18,11 +18,12 @@ Old Apple Website Clone project for Microverse program for practicing background
 
 - HTML
 - CSS/SCSS
+- SASS
 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/warblo001/AppleClone/f7c7e942b13f4fd250f7b0c9fbaaea293f83a5ff/index.html)
+[Live Demo Link](https://rawcdn.githack.com/warblo001/AppleClone/2777b89eadd454cc42dcbc28503c5dafd006baec/index.html)
 
 **See the page via the link above**
 
@@ -36,6 +37,9 @@ Old Apple Website Clone project for Microverse program for practicing background
 
 - GitHub: [@helciodev](https://github.com/helciodev)
 - Twitter: [@helcio_bruno](https://twitter.com/helcio_bruno)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/helcio-andre/)
+
+
 
 👤 **Alan Solis**
 
