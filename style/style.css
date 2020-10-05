@@ -40,11 +40,7 @@
 
 .footer {
   width: 78%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 30px 10px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
@@ -158,14 +154,14 @@
 
 .navbar input:focus + .nav-search {
   color: black;
-  -webkit-transform: translateX(-11px);
-          transform: translateX(-11px);
+  -webkit-transform: translateX(-18px);
+          transform: translateX(-18px);
 }
 
 .navbar .nav-search {
   position: absolute;
   top: 10px;
-  left: 30px;
+  left: 20px;
   font-size: 14px;
   cursor: text;
   -webkit-transition: all .2s;
@@ -253,7 +249,8 @@
 }
 
 .site-map {
-  width: 50%;
+  margin-top: -16px;
+  float: right;
 }
 
 .copyright {
