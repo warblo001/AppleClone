@@ -36,6 +36,10 @@
   font-weight: 100;
 }
 
+.hero-text span:hover {
+  text-decoration: underline;
+}
+
 .footer {
   width: 78%;
   max-width: 1200px;
@@ -61,12 +65,12 @@
     margin-left: 5px;
   }
 
-  span {
+  a {
     text-decoration: none;
     color: #08c;
   }
 
-  span:hover {
+  a:hover {
     text-decoration: underline;
   }
 
